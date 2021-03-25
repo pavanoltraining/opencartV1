@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 28.045 s <<< FAILURE! - in TestSuite
+testCases.TC_001_AccountRegistration.test_accout_Registration  Time elapsed: 9.19 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at testCases.TC_001_AccountRegistration.test_accout_Registration(TC_001_AccountRegistration.java:66)
+

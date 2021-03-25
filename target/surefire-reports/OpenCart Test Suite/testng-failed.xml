@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" verbose="0" name="Failed suite [OpenCart Test Suite]" parallel="tests">
+  <listeners>
+    <listener class-name="utilities.ExtentReportManager"/>
+  </listeners>
+  <test thread-count="2" verbose="0" name="OpencartTests(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="testCases.TC_001_AccountRegistration">
+        <methods>
+          <include name="test_accout_Registration"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testCases.TC_001_AccountRegistration -->
+    </classes>
+  </test> <!-- OpencartTests(failed) -->
+</suite> <!-- Failed suite [OpenCart Test Suite] -->
